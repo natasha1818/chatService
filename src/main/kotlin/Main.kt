@@ -4,6 +4,7 @@ fun main() {
     ChatService.addNewMessage(2, Message("привет"))
     ChatService.addNewMessage(2, Message("Как дела?"))
     ChatService.addNewMessage(1, Message("Здравствуйте"))
+    ChatService.addNewMessage(3,Message("Hi"))
     ChatService.printChats()
     println(ChatService.getLastMessages())
     println(ChatService.getMessages(1, 1))
